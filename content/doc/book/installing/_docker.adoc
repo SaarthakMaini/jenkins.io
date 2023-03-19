@@ -15,8 +15,6 @@ _run-jenkins-in-docker.adoc).
 
 ==== link:https://gitpod.io/#/https://github.com/SaarthakMaini/Test-Compose[Open Jenkins]
 
-==== You can also follow the steps below to Get Started
-
 === On MacOs and Linux
 
 . Open up a terminal window and copy the following command
@@ -68,7 +66,7 @@ include::Dockerfile[]
 docker compose up -d
 ----
 
-=== More Comprehensive Details On How To Set Up Jenkins With Docker  
+==== More Comprehensive Details On How To Set Up Jenkins With Docker  
 
 === On macOS and Linux
 

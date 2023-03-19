@@ -14,5 +14,4 @@ vscode:
   extensions:
     - asciidoctor.asciidoctor-vscode
     - streetsidesoftware.code-spell-checker
-    - eamodio.gitlens
     - dbaeumer.vscode-eslint

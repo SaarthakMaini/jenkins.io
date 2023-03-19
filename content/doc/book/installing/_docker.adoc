@@ -9,6 +9,66 @@ the sibling file _docker-for-tutorials.adoc (used in
 _run-jenkins-in-docker.adoc).
 ////
 
+= Jenkins QuickStart
+
+==== Want to try out Jenkins in under 2 minutes ? Click the link below!
+
+==== link:https://gitpod.io/#/https://github.com/SaarthakMaini/Test-Compose[Open Jenkins]
+
+==== You can also follow the steps below to Get Started
+
+=== On MacOs and Linux
+
+. Open up a terminal window and copy the following command
++
+[source,bash]
+----
+git clone https://github.com/SaarthakMaini/Test-Compose.git
+----
+[]
+[NOTE]
+: I am currently giving the repository in my Github account as an example
+
+. Enter the following command in the terminal
++
+[source,bash]
+----
+cd Test-Compose; docker-compose up -d
+----
+
+. Open https://localhost:8080 in your browser
+. Proceed to the <<setup-wizard,Setup wizard>>.
+
+
+=== On Windows
+. Make a new folder named 'Test-Compose'
+[]
+[NOTE]
+: If you want, you can give any of you desired name to the folder
+
+. Make a file named 'docker-compose.yml' in the folder
+. Paste the following content in the 'docker-compose.yml' file
++
+[source,bash]
+----
+include::docker-compose.yml[]
+----
+
+. Create a new file named 'Dockerfile' in the same folder
+. Paste the following content in the 'Dockerfile' file
++
+[source,bash]
+----
+include::Dockerfile[]
+----
+. Open the folder in the Powershell or CMD and paste the following command:
++
+[source,bash]
+----
+docker compose up -d
+----
+
+=== More Comprehensive Details On How To Set Up Jenkins With Docker  
 
 === On macOS and Linux
 
